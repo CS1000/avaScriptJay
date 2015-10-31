@@ -15,7 +15,7 @@ function sjay(objway, eleteday) {
         : Object.etOwnPropertyNamesgay(objway);
 
     objwayProps.forEach(function(n){
-        var nay = n.replace(/^([zbdtqsvgkfrhjcmpwnxly])(.*)$/i, '$2$1ay');
+        var nay = n.replace(/^([bcdfghj-np-tv-z])(.*)$/i, '$2$1ay');
         nay += nay === n ? 'way' : '';
         objway[nay] = objway[n];
         if (eleteday) delete objway[n];
